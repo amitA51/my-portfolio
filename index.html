@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+  <!-- Lottie Animation CSS -->
+  <style>
+    /* Lottie animations will be embedded via JavaScript */
+  </style>
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  
+  <!-- Navigation -->
+  <header>
+    <nav id="navbar">
+      <div class="logo">
+        <a href="#hero">YourLogo</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Hero Section with 3D Model and Particle Effects -->
+  <section id="hero">
+    <div id="particles-js"></div>
+    <div id="hero-content">
+      <h1>Hi, I'm amitscamit</h1>
+      <p>Professional scammer</p>
+      <a href="#projects" class="btn">View My scam</a>
+    </div>
+    <div id="3d-model"></div>
+  </section>
+  
+  <!-- About Section with Lottie Animation -->
+  <section id="about">
+    <h2>site for scam</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          [i am professional scammer.]
+        </p>
+        <a href="#contact" class="btn">Get scam</a>
+      </div>
+      <div class="about-animation">
+        <div id="lottie-about"></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section with Progress Bars and Icons -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+        <div class="progress-bar">
+          <span style="width: 95%;"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <div class="progress-bar">
+          <span style="width: 90%;"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <span style="width: 85%;"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-react"></i>
+        <h3>React.js</h3>
+        <div class="progress-bar">
+          <span style="width: 80%;"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-node"></i>
+        <h3>Node.js</h3>
+        <div class="progress-bar">
+          <span style="width: 75%;"></span>
+        </div>
+      </div>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+  
+  <!-- Projects Section with Swiper Slider and Lightbox Modals -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Project Slide 1 -->
+        <div class="swiper-slide project-item">
+          <img src="https://www.netcov.com/wp-content/filemgr/2022/07/shutterstock_1092829541.jpg" alt="Project 1">
+          <div class="overlay">
+            <h3>Project Title 1</h3>
+            <p>Short description of Project 1.</p>
+            <a href="#" class="btn view-project">View Details</a>
+          </div>
+        </div>
+        <!-- Project Slide 2 -->
+        <div class="swiper-slide project-item">
+          <img src="https://www.netcov.com/wp-content/filemgr/2022/07/shutterstock_1092829541.jpg" alt="Project 2">
+          <div class="overlay">
+            <h3>Project Title 2</h3>
+            <p>Short description of Project 2.</p>
+            <a href="#" class="btn view-project">View Details</a>
+          </div>
+        </div>
+        <!-- Add more swiper-slides as needed -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      
+      <!-- Add Navigation -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  
+  <!-- Blog Section -->
+  <section id="blog">
+    <h2>My Blog</h2>
+    <div class="blog-container">
+      <!-- Blog Post 1 -->
+      <div class="blog-post">
+        <img src="https://www.netcov.com/wp-content/filemgr/2022/07/shutterstock_1092829541.jpg" alt="Blog Post 1">
+        <h3>Understanding 3D Design</h3>
+        <p>An in-depth look into the fundamentals of 3D design and its applications in modern web development.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="blog-post">
+        <img src="https://www.netcov.com/wp-content/filemgr/2022/07/shutterstock_1092829541.jpg" alt="Blog Post 2">
+        <h3>Optimizing Web Performance</h3>
+        <p>Tips and techniques to enhance the performance of your websites for a better user experience.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <!-- Add more blog posts as needed -->
+    </div>
+  </section>
+  
+  <!-- Testimonials Section with Slider -->
+  <section id="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <p>"[Client testimonial goes here. Highlight your professionalism and quality of work.]"</p>
+        <h3>- Client Name</h3>
+      </div>
+      <div class="testimonial">
+        <p>"[Another client testimonial. Emphasize the impact of your work.]"</p>
+        <h3>- Another Client</h3>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+  </section>
+  
+  <!-- Contact Section with Animated Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> scam</p>
+      <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+      <p><i class="fas fa-envelope"></i> amitscamit@gmail.com</p>
+    </div>
+  </section>
+  
+  <!-- Downloadable Resume Section -->
+  <section id="download-resume">
+    <h2>Resume</h2>
+    <a href="assets/docs/your-resume.pdf" download class="btn resume-btn">Download My Resume</a>
+  </section>
+  
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-chevron-up"></i></button>
+  
+  <!-- Dark Mode Toggle Button -->
+  <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 <div amitscamit=""></div>. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <!-- Add more social icons as needed -->
+    </div>
+    <!-- 3D Shapes will be rendered behind footer via Three.js -->
+  </footer>
+  
+  <!-- Modal for Project Details -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <span class="close-button" aria-label="Close Modal">&times;</span>
+      <h2 id="modal-title">Project Title</h2>
+      <img src="https://www.netcov.com/wp-content/filemgr/2022/07/shutterstock_1092829541.jpg" alt="Project Detail">
+      <p>Detailed description of the project, technologies used, challenges faced, and outcomes achieved.</p>
+      <a href="#" class="btn">Visit Project</a>
+    </div>
+  </div>
+  
+  <!-- JavaScript Libraries -->
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  
+  <!-- GSAP (GreenSock Animation Platform) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  
+  <!-- Swiper.js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+  <!-- Particles.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  
+  <!-- LottieFiles -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+  
+  <!-- GSAP ScrollTo Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+  
+  <!-- Three.js GLTFLoader -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/loaders/GLTFLoader.min.js"></script>
+  
+  <!-- Main JavaScript -->
+  <script src="scripts.js"></script>
+  
+</body>
+</html>
